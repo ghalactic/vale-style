@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "vale-style-authoring": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring/SKILL.md",
+      "computedHash": "8becc32f331b1c7678600442bbf4146de023089fa28f84d18903f5ecd8f6d38e"
+    },
+    "vale-style-authoring-actions": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring-actions/SKILL.md",
+      "computedHash": "86b9974fc9b54e11394c15011f8d05575d0bf9404aa2ac5d87cd0a5fdee503c2"
+    },
+    "vale-style-authoring-checks": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring-checks/SKILL.md",
+      "computedHash": "a5a8aeb146d3734bb21f893cb5f50e80984b2be36afa4a3d329563c5f6aed17f"
+    },
+    "vale-style-authoring-config": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring-config/SKILL.md",
+      "computedHash": "299b280e4708e2389b229aeeca2b063a898973e83e5e22c32807fa7641ab683e"
+    },
+    "vale-style-authoring-formats": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring-formats/SKILL.md",
+      "computedHash": "5a95f592a59f724ed92dbfeb0460ad9be6908a69da1aa1b0dfe29beb8b79d990"
+    },
+    "vale-style-authoring-guides": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "vale-style-authoring-guides/SKILL.md",
+      "computedHash": "e5e42afbed90db01b2223d6f9be30c4bda0dcf29b87d49a49e8a64aae41a5aa7"
+    }
+  }
+}
