@@ -1,0 +1,27 @@
+
+ testdata/fail/numbers-dates.md
+ 3:5    error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 5:5    error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 5:44   error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 7:11   error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 7:28   error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 9:5    error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 9:27   error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 11:5   error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 11:29  error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 11:37  error  Spell out ordinal numbers in text: first, second, third.                                                       Ghalactic.OrdinalNumerals 
+ 13:13  error  Prefer active voice over passive voice in 'is planned'.                                                        Ghalactic.Passive         
+ 13:36  error  Avoid using seasons ('in summer') to refer to time. Readers in different hemispheres have opposite seasons.    Ghalactic.Seasons         
+ 15:18  error  Avoid using seasons ('this spring') to refer to time. Readers in different hemispheres have opposite seasons.  Ghalactic.Seasons         
+ 15:45  error  Avoid using seasons ('next fall') to refer to time. Readers in different hemispheres have opposite seasons.    Ghalactic.Seasons         
+ 17:18  error  Avoid using seasons ('in autumn') to refer to time. Readers in different hemispheres have opposite seasons.    Ghalactic.Seasons         
+ 17:31  error  Avoid using seasons ('in winter') to refer to time. Readers in different hemispheres have opposite seasons.    Ghalactic.Seasons         
+ 19:23  error  Avoid using seasons ('last summer') to refer to time. Readers in different hemispheres have opposite seasons.  Ghalactic.Seasons         
+ 19:48  error  Avoid using seasons ('this winter') to refer to time. Readers in different hemispheres have opposite seasons.  Ghalactic.Seasons         
+ 21:26  error  Avoid using seasons ('last spring') to refer to time. Readers in different hemispheres have opposite seasons.  Ghalactic.Seasons         
+ 21:56  error  Avoid using seasons ('next autumn') to refer to time. Readers in different hemispheres have opposite seasons.  Ghalactic.Seasons         
+ 23:21  error  Write dates as 'Month DD, YYYY'. Don't use ambiguous formats like DD/MM/YYYY or MM/DD/YYYY.                    Ghalactic.DateFormat      
+ 25:17  error  Write dates as 'Month DD, YYYY'. Don't use ambiguous formats like DD/MM/YYYY or MM/DD/YYYY.                    Ghalactic.DateFormat      
+ 25:40  error  Write dates as 'Month DD, YYYY'. Don't use ambiguous formats like DD/MM/YYYY or MM/DD/YYYY.                    Ghalactic.DateFormat      
+
+✖ 23 errors, 0 warnings and 0 suggestions in 1 file.

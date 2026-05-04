@@ -1,0 +1,37 @@
+
+ testdata/fail/accessibility.md
+ 3:23   error  Don't use ableist language 'sanity check'. Use more precise, inclusive terms.                          Ghalactic.Ableist      
+ 5:5    error  Don't use ableist language 'sanity-check'. Use more precise, inclusive terms.                          Ghalactic.Ableist      
+ 7:18   error  Don't use ableist language 'crazy'. Use more precise, inclusive terms.                                 Ghalactic.Ableist      
+ 9:12   error  Don't use ableist language 'crippling'. Use more precise, inclusive terms.                             Ghalactic.Ableist      
+ 13:5   error  Don't use ableist language 'lame'. Use more precise, inclusive terms.                                  Ghalactic.Ableist      
+ 13:27  error  Don't use ableist language 'blind spot'. Use more precise, inclusive terms.                            Ghalactic.Ableist      
+ 15:5   error  Use the contraction 'shouldn't' instead of 'should not'.                                               Ghalactic.Contractions 
+ 15:16  error  Don't use ableist language 'turn a blind eye'. Use more precise, inclusive terms.                      Ghalactic.Ableist      
+ 17:38  error  Don't use ableist language 'insane'. Use more precise, inclusive terms.                                Ghalactic.Ableist      
+ 17:48  error  Don't use ableist language 'bonkers'. Use more precise, inclusive terms.                               Ghalactic.Ableist      
+ 19:5   error  Don't use ableist language 'gimp'. Use more precise, inclusive terms.                                  Ghalactic.Ableist      
+ 21:3   error  Don't use ableist language 'lunatic'. Use more precise, inclusive terms.                               Ghalactic.Ableist      
+ 21:40  error  Don't use ableist language 'loony'. Use more precise, inclusive terms.                                 Ghalactic.Ableist      
+ 23:19  error  Use 'allowlist' instead of 'whitelist'.                                                                Ghalactic.Inclusive    
+ 25:5   error  Use 'denied' instead of 'blacklisted'.                                                                 Ghalactic.Inclusive    
+ 25:37  error  Use 'denylist' instead of 'black-list'.                                                                Ghalactic.Inclusive    
+ 27:5   error  Use 'allowing' instead of 'whitelisting'.                                                              Ghalactic.Inclusive    
+ 29:12  error  Use 'primary' instead of 'master'.                                                                     Ghalactic.Inclusive    
+ 29:36  error  Use 'replica' or 'worker' instead of 'slave'.                                                          Ghalactic.Inclusive    
+ 31:21  error  Use 'person hours' instead of 'man hours'.                                                             Ghalactic.Inclusive    
+ 31:63  error  Use 'workforce' or 'staff' instead of 'manpower'.                                                      Ghalactic.Inclusive    
+ 33:5   error  Use 'person hours' instead of 'man-hours'.                                                             Ghalactic.Inclusive    
+ 33:37  error  Use 'workforce' or 'staff' instead of 'man-power'.                                                     Ghalactic.Inclusive    
+ 35:5   error  Use 'manufactured' or 'synthetic' instead of 'manmade'.                                                Ghalactic.Inclusive    
+ 35:42  error  Use 'manufactured' or 'synthetic' instead of 'man made'.                                               Ghalactic.Inclusive    
+ 37:24  error  Use 'humanity' or 'people' instead of 'mankind'.                                                       Ghalactic.Inclusive    
+ 39:25  error  Don't use directional language 'above'. Use 'preceding', 'following', or 'earlier' instead.            Ghalactic.Directional  
+ 41:13  error  Don't use directional language 'below'. Use 'preceding', 'following', or 'earlier' instead.            Ghalactic.Directional  
+ 41:33  error  Don't use directional language 'lower-left'. Use 'preceding', 'following', or 'earlier' instead.       Ghalactic.Directional  
+ 43:11  error  Don't use directional language 'upper-right'. Use 'preceding', 'following', or 'earlier' instead.      Ghalactic.Directional  
+ 43:40  error  Don't use directional language 'right-hand side'. Use 'preceding', 'following', or 'earlier' instead.  Ghalactic.Directional  
+ 45:5   error  Don't use directional language 'upper-left'. Use 'preceding', 'following', or 'earlier' instead.       Ghalactic.Directional  
+ 45:33  error  Don't use directional language 'left-hand side'. Use 'preceding', 'following', or 'earlier' instead.   Ghalactic.Directional  
+
+✖ 33 errors, 0 warnings and 0 suggestions in 1 file.

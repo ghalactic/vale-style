@@ -1,36 +1,42 @@
 VALE := vale
-VALE_FLAGS := --config=testdata/.vale.ini --output=JSON
+VALE_FLAGS := --config=testdata/.vale.ini --no-wrap
 
-.PHONY: test test-pass test-fail lint
+FIXTURES := $(wildcard testdata/pass/*.md testdata/fail/*.md)
 
-test: test-pass test-fail
+.PHONY: test test-snapshots update-snapshots lint
 
-test-pass:
-	@echo "==> Testing pass fixtures (expecting zero errors)..."
-	@$(VALE) $(VALE_FLAGS) testdata/pass/ || \
-		(echo "FAIL: pass fixtures produced errors" && exit 1)
-	@echo "PASS: all pass fixtures are clean"
+test: test-snapshots
 
-test-fail:
-	@echo "==> Testing fail fixtures (expecting specific errors)..."
+test-snapshots:
 	@fail=0; \
-	for file in testdata/fail/*.md; do \
-		expected=$$(sed -n 's/^<!-- expect: \(.*\) -->/\1/p' "$$file" | head -1); \
-		if [ -z "$$expected" ]; then \
-			echo "SKIP: $$file (no expect comment)"; \
+	for file in $(FIXTURES); do \
+		snap="$${file%.md}.expected.txt"; \
+		if [ ! -f "$$snap" ]; then \
+			echo "FAIL: missing snapshot $$snap"; \
+			fail=1; \
 			continue; \
 		fi; \
-		output=$$($(VALE) $(VALE_FLAGS) "$$file" 2>&1 || true); \
-		IFS=', ' read -ra rules <<< "$$expected"; \
-		for rule in "$${rules[@]}"; do \
-			if ! echo "$$output" | grep -q "\"$$rule\""; then \
-				echo "FAIL: $$file - expected $$rule not found"; \
-				fail=1; \
-			fi; \
-		done; \
+		actual=$$($(VALE) $(VALE_FLAGS) "$$file" 2>&1 | sed 's/\x1b\[[0-9;]*m//g'); \
+		expected=$$(cat "$$snap"); \
+		if [ "$$actual" != "$$expected" ]; then \
+			echo "FAIL: $$file output differs from snapshot"; \
+			echo "Expected:"; \
+			cat "$$snap"; \
+			echo "Actual:"; \
+			echo "$$actual"; \
+			echo ""; \
+			fail=1; \
+		fi; \
 	done; \
 	if [ "$$fail" -eq 1 ]; then exit 1; fi
-	@echo "PASS: all fail fixtures triggered expected rules"
+	@echo "PASS: all snapshots match"
+
+update-snapshots:
+	@for file in $(FIXTURES); do \
+		snap="$${file%.md}.expected.txt"; \
+		$(VALE) $(VALE_FLAGS) "$$file" 2>&1 | sed 's/\x1b\[[0-9;]*m//g' > "$$snap"; \
+		echo "Updated $$snap"; \
+	done
 
 lint:
 	@$(VALE) --config=.vale.ini README.md CHANGELOG.md

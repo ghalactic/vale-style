@@ -1,0 +1,7 @@
+
+ testdata/fail/readability.md
+ 1:1   error  Aim for an eighth-grade reading level or lower. Current level: 21.92.  Ghalactic.ReadingLevel   
+ 3:1   error  Keep sentences short (under 40 words). This sentence has 50 words.     Ghalactic.SentenceLength 
+ 9:12  error  'processes' is repeated in nearby sentences.                           Ghalactic.Repetition     
+
+✖ 3 errors, 0 warnings and 0 suggestions in 1 file.

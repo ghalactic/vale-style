@@ -1,0 +1,26 @@
+
+ testdata/fail/voice-tone.md
+ 3:1    error  Don't use 'please' in instructions.                         Ghalactic.Please       
+ 5:9    error  Don't use 'simply' — it implies the action is trivial.      Ghalactic.Simply       
+ 5:43   error  Use the contraction 'it's' instead of 'it is'.              Ghalactic.Contractions 
+ 5:49   error  Don't use 'just' — it implies the action is trivial.        Ghalactic.Simply       
+ 5:57   error  Don't use 'easy' — it implies the action is trivial.        Ghalactic.Simply       
+ 7:9    error  Don't use exclamation marks in documentation.               Ghalactic.Exclamation  
+ 9:1    error  Use second person ('you') instead of first person ('We').   Ghalactic.WeOur        
+ 9:27   error  Use second person ('you') instead of first person ('our').  Ghalactic.WeOur        
+ 9:50   error  Use second person ('you') instead of first person ('us').   Ghalactic.WeOur        
+ 11:10  error  Prefer active voice over passive voice in 'is written'.     Ghalactic.Passive      
+ 13:12  error  Use present tense instead of future tense with 'will'.      Ghalactic.Will         
+ 15:1   error  Don't use internet slang 'YMMV' in documentation.           Ghalactic.Slang        
+ 15:34  error  Don't use internet slang 'tl;dr' in documentation.          Ghalactic.Slang        
+ 15:40  error  Don't use 'just' — it implies the action is trivial.        Ghalactic.Simply       
+ 17:21  error  Don't use internet slang 'lol' in documentation.            Ghalactic.Slang        
+ 19:1   error  Don't use internet slang 'BTW' in documentation.            Ghalactic.Slang        
+ 19:40  error  Don't use internet slang 'FYI' in documentation.            Ghalactic.Slang        
+ 21:1   error  Don't use internet slang 'IMO' in documentation.            Ghalactic.Slang        
+ 21:31  error  Don't use internet slang 'IMHO' in documentation.           Ghalactic.Slang        
+ 23:1   error  Don't use internet slang 'AFAIK' in documentation.          Ghalactic.Slang        
+ 23:46  error  Don't use internet slang 'lmao' in documentation.           Ghalactic.Slang        
+ 25:1   error  Don't use internet slang 'RTFM' in documentation.           Ghalactic.Slang        
+
+✖ 22 errors, 0 warnings and 0 suggestions in 1 file.

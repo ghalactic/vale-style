@@ -1,0 +1,11 @@
+
+ testdata/fail/punctuation.md
+ 3:21   error  Use a serial (Oxford) comma before 'Linux, macOS and '.                   Ghalactic.OxfordComma 
+ 5:27   error  Don't use an en dash (–). Use an em dash (—) or hyphen (-) instead.       Ghalactic.EnDash      
+ 5:37   error  Prefer active voice over passive voice in 'is set'.                       Ghalactic.Passive     
+ 7:33   error  Don't use the ellipsis character (…). Use three periods (...) if needed.  Ghalactic.Ellipsis    
+ 9:5    error  Use straight quotes instead of curly quotes.                              Ghalactic.CurlyQuotes 
+ 9:17   error  Use straight quotes instead of curly quotes.                              Ghalactic.CurlyQuotes 
+ 11:20  error  Use 'and' instead of '&' in prose.                                        Ghalactic.Ampersand   
+
+✖ 7 errors, 0 warnings and 0 suggestions in 1 file.

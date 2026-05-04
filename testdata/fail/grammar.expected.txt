@@ -1,0 +1,26 @@
+
+ testdata/fail/grammar.md
+ 3:31   error  Use gender-neutral pronouns (singular 'they') instead of 'he/she'.  Ghalactic.Gender       
+ 5:5    error  Use the contraction 'don't' instead of 'do not'.                    Ghalactic.Contractions 
+ 5:45   error  Use the contraction 'it's' instead of 'it is'.                      Ghalactic.Contractions 
+ 5:48   error  Prefer active voice over passive voice in 'is not required'.        Ghalactic.Passive      
+ 7:12   error  Avoid hypothetical 'would' — use present tense instead.             Ghalactic.Would        
+ 9:12   error  Prefer active voice over passive voice in 'is generated'.           Ghalactic.Passive      
+ 11:1   error  Use the contraction 'you're' instead of 'You are'.                  Ghalactic.Contractions 
+ 11:48  error  Use the contraction 'can't' instead of 'cannot'.                    Ghalactic.Contractions 
+ 13:13  error  Use the contraction 'doesn't' instead of 'does not'.                Ghalactic.Contractions 
+ 13:47  error  Use the contraction 'hasn't' instead of 'has not'.                  Ghalactic.Contractions 
+ 15:13  error  Use the contraction 'wasn't' instead of 'was not'.                  Ghalactic.Contractions 
+ 15:34  error  Use the contraction 'couldn't' instead of 'could not'.              Ghalactic.Contractions 
+ 17:6   error  Use the contraction 'haven't' instead of 'have not'.                Ghalactic.Contractions 
+ 17:35  error  Use the contraction 'shouldn't' instead of 'should not'.            Ghalactic.Contractions 
+ 19:10  error  Use the contraction 'mustn't' instead of 'must not'.                Ghalactic.Contractions 
+ 23:5   error  Use the contraction 'weren't' instead of 'were not'.                Ghalactic.Contractions 
+ 27:1   error  Use the contraction 'they're' instead of 'They are'.                Ghalactic.Contractions 
+ 27:41  error  Use the contraction 'that's' instead of 'that is'.                  Ghalactic.Contractions 
+ 27:46  error  Prefer active voice over passive voice in 'is the expected'.        Ghalactic.Passive      
+ 31:4   error  Use the contraction 'won't' instead of 'will not'.                  Ghalactic.Contractions 
+ 35:1   error  Use the contraction 'you're' instead of 'You are'.                  Ghalactic.Contractions 
+ 35:20  error  Use the contraction 'you're' instead of 'you are'.                  Ghalactic.Contractions 
+
+✖ 22 errors, 0 warnings and 0 suggestions in 1 file.

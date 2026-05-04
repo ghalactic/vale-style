@@ -1,5 +1,3 @@
-<!-- expect: Ghalactic.HeadingSentenceCase, Ghalactic.HeadingEndPunctuation, Ghalactic.HeadingGerund -->
-
 # This Is Title Case And Should Be Sentence Case
 
 ## Creating a new instance

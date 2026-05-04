@@ -1,5 +1,3 @@
-<!-- expect: Ghalactic.OxfordComma, Ghalactic.EnDash, Ghalactic.Ellipsis, Ghalactic.CurlyQuotes, Ghalactic.Ampersand -->
-
 # Punctuation test
 
 The system supports Linux, macOS and Windows.

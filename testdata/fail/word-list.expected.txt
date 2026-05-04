@@ -1,0 +1,46 @@
+
+ testdata/fail/word-list.md
+ 3:5    error  Use 'admin' instead of 'administrator'.                                                      Ghalactic.WordList      
+ 3:34   error  Use 'username' instead of 'account name'.                                                    Ghalactic.WordList      
+ 5:14   error  Use 'lets you' instead of 'allows you to'.                                                   Ghalactic.WordList      
+ 7:9    error  Use 'regular expression' instead of 'regex'.                                                 Ghalactic.WordList      
+ 7:34   error  Use 'for example' instead of 'e.g.'.                                                         Ghalactic.Abbreviations 
+ 9:5    error  Use 'repository' instead of 'repo'.                                                          Ghalactic.WordList      
+ 9:36   error  Use 'that is' instead of 'i.e.'.                                                             Ghalactic.Abbreviations 
+ 11:9   error  Use 'hold the pointer over' instead of 'hover'.                                              Ghalactic.WordList      
+ 13:8   error  Use 'automatically update' instead of 'autoupdate'.                                          Ghalactic.WordList      
+ 15:13  error  Use 'mobile data' instead of 'cellular data'.                                                Ghalactic.WordList      
+ 15:32  error  Use 'mobile network' instead of 'cellular network'.                                          Ghalactic.WordList      
+ 17:5   error  Use 'predefined roles' instead of 'curated roles'.                                           Ghalactic.WordList      
+ 17:19  error  Use 'consist of', 'contain', or 'include' instead of 'comprise'.                             Ghalactic.WordList      
+ 19:5   error  Use 'unavailable' instead of 'grayed-out'.                                                   Ghalactic.WordList      
+ 19:41  error  Prefer active voice over passive voice in 'is disabled'.                                     Ghalactic.Passive       
+ 21:9   error  Use 'address bar' instead of 'omnibox'.                                                      Ghalactic.WordList      
+ 21:36  error  Use 'recents screen' instead of 'overview screen'.                                           Ghalactic.WordList      
+ 23:5   error  Use 'pronouns' instead of 'preferred pronouns'.                                              Ghalactic.WordList      
+ 25:14  error  Use 'tar file' instead of 'tarball'.                                                         Ghalactic.WordList      
+ 25:26  error  Use 'extract' instead of 'untar'.                                                            Ghalactic.WordList      
+ 27:9   error  Use 'extract' instead of 'unzip'.                                                            Ghalactic.WordList      
+ 27:18  error  Use 'extract' instead of 'uncompress'.                                                       Ghalactic.WordList      
+ 29:22  error  Use 'box' instead of 'text box'.                                                             Ghalactic.WordList      
+ 29:34  error  Use 'box' instead of 'textbox'.                                                              Ghalactic.WordList      
+ 29:48  error  Don't use directional language 'below'. Use 'preceding', 'following', or 'earlier' instead.  Ghalactic.Directional   
+ 31:1   error  Use 'tap' instead of 'Touch'.                                                                Ghalactic.WordList      
+ 31:53  error  Use 'touch and hold' instead of 'long press'.                                                Ghalactic.WordList      
+ 33:5   error  Use 'Kubernetes' instead of 'k8s'.                                                           Ghalactic.WordList      
+ 33:29  error  Use 'connection type' instead of 'interconnect type'.                                        Ghalactic.WordList      
+ 35:5   error  Use 'fully managed' instead of 'NoOps'.                                                      Ghalactic.WordList      
+ 35:47  error  Use 'channel' instead of 'outpost'.                                                          Ghalactic.WordList      
+ 37:9   error  Use 'sign in to' instead of 'sign into'.                                                     Ghalactic.WordList      
+ 39:9   error  Use 'want' or 'need' instead of 'wish'.                                                      Ghalactic.WordList      
+ 39:17  error  Use 'clear' instead of 'uncheck'.                                                            Ghalactic.WordList      
+ 39:39  error  Use 'clear' instead of 'deselect'.                                                           Ghalactic.WordList      
+ 41:5   error  Use 'web' instead of 'World Wide Web'.                                                       Ghalactic.WordList      
+ 41:49  error  Use 'internal IP address' instead of 'network IP address'.                                   Ghalactic.WordList      
+ 43:5   error  Use 'unavailable' instead of 'greyed-out'.                                                   Ghalactic.WordList      
+ 43:30  error  Use 'unavailable' instead of 'grey out'.                                                     Ghalactic.WordList      
+ 43:59  error  Use 'disparage' instead of 'denigrate'.                                                      Ghalactic.WordList      
+ 45:5   error  Use 'legacy' or 'exempt' instead of 'grandfathered'.                                         Ghalactic.WordList      
+ 45:45  error  Use 'extract' instead of 'unarchive'.                                                        Ghalactic.WordList      
+
+✖ 42 errors, 0 warnings and 0 suggestions in 1 file.

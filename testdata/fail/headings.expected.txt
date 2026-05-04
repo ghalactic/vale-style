@@ -1,0 +1,8 @@
+
+ testdata/fail/headings.md
+ 1:3   error  'This Is Title Case And Should Be Sentence Case' should be in sentence case.                                                Ghalactic.HeadingSentenceCase   
+ 1:33  error  Prefer active voice over passive voice in 'Be Sent'.                                                                        Ghalactic.Passive               
+ 3:4   error  Don't start a heading with an -ing verb. Use a bare infinitive for task headings or a noun phrase for conceptual headings.  Ghalactic.HeadingGerund         
+ 5:24  error  Don't use punctuation at the end of a heading.                                                                              Ghalactic.HeadingEndPunctuation 
+
+✖ 4 errors, 0 warnings and 0 suggestions in 1 file.
