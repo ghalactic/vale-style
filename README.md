@@ -1,11 +1,11 @@
 # Ghalactic Vale style
 
-A [Vale] style enforcing the [Galactic] style, which is based on the [Google
+A [Vale] style that enforces the [Galactic] style, which builds on the [Google
 developer documentation style guide].
 
 [vale]: https://vale.sh
-[Galactic]: https://ghalactic.github.io
-[Google developer documentation style guide]:
+[galactic]: https://ghalactic.github.io
+[google developer documentation style guide]:
   https://developers.google.com/style
 
 ## Installation

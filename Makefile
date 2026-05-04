@@ -3,9 +3,9 @@ VALE_FLAGS := --config=testdata/.vale.ini --no-wrap
 
 FIXTURES := $(wildcard testdata/pass/*.md testdata/fail/*.md)
 
-.PHONY: test test-snapshots update-snapshots lint
+.PHONY: test test-snapshots test-self update-snapshots lint
 
-test: test-snapshots
+test: test-snapshots test-self
 
 test-snapshots:
 	@fail=0; \
@@ -38,5 +38,5 @@ update-snapshots:
 		echo "Updated $$snap"; \
 	done
 
-lint:
+test-self:
 	@$(VALE) --config=.vale.ini README.md CHANGELOG.md
