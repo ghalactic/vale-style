@@ -1,0 +1,5 @@
+extends: existence
+message: "This is a placeholder rule."
+level: suggestion
+nonword: true
+tokens: []
