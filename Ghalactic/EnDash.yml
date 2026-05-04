@@ -5,4 +5,4 @@ level: error
 nonword: true
 tokens: []
 raw:
-  - '–'
+  - "–"
