@@ -6,6 +6,14 @@ This project documents all notable changes in this file. The format is based on
 [keep a changelog]: https://keepachangelog.com/
 [semantic versioning]: https://semver.org/
 
+## [v0.1.2] - 2026-05-04
+
+[v0.1.2]: https://github.com/ghalactic/vale-style/releases/v0.1.2
+
+### Fixed
+
+- Unstable releases are now marked as latest, so the install instructions work
+
 ## [v0.1.1] - 2026-05-04
 
 [v0.1.1]: https://github.com/ghalactic/vale-style/releases/v0.1.1
