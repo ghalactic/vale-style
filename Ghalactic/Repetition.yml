@@ -1,0 +1,7 @@
+extends: repetition
+message: "'%s' is repeated in nearby sentences."
+link: https://developers.google.com/style/word-list
+level: error
+alpha: true
+tokens:
+  - '[^\s]+'

@@ -1,0 +1,7 @@
+extends: metric
+message: "Aim for an eighth-grade reading level or lower. Current level: %s."
+link: https://developers.google.com/style/tone
+level: error
+formula: |
+  (0.39 * (words / sentences)) + (11.8 * (syllables / words)) - 15.59
+condition: "> 8"
