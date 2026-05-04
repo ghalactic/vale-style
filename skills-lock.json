@@ -1,6 +1,78 @@
 {
   "version": 1,
   "skills": {
+    "google-developer-style-guide": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide/SKILL.md",
+      "computedHash": "4f7252a21065e8d89b55160beee97e1022e4d0742d7b9ff814233ac89e7b349a"
+    },
+    "google-developer-style-guide-accessibility-inclusion": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-accessibility-inclusion/SKILL.md",
+      "computedHash": "8b6bab3f768b313326cebd982aa58a877c008a472ebf3ebc97a718d109a19744"
+    },
+    "google-developer-style-guide-api-code-reference": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-api-code-reference/SKILL.md",
+      "computedHash": "97d924a371811f79c219b57f79c6c3be953d3ecfd77e493155d0ae9aa716ed1d"
+    },
+    "google-developer-style-guide-formatting": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-formatting/SKILL.md",
+      "computedHash": "b25b7dc594f6262ebf81945aa29500ea1d13212d004acb9bbc7ba363befdd018"
+    },
+    "google-developer-style-guide-grammar": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-grammar/SKILL.md",
+      "computedHash": "a910adcd31d29e14d5c1e3b242bc3ce2775eb2f1b121501a1e63ead8736d3266"
+    },
+    "google-developer-style-guide-images-media": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-images-media/SKILL.md",
+      "computedHash": "41d9f9d0d771991e820b71dc458b4c1332c5602269c0b72c9a70bb1e700c5580"
+    },
+    "google-developer-style-guide-naming-terminology": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-naming-terminology/SKILL.md",
+      "computedHash": "b9452276d50edfeb9cc953e55bc9947af0dbfc1e98ebe53885a8592f05cfc2fa"
+    },
+    "google-developer-style-guide-numbers-dates": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-numbers-dates/SKILL.md",
+      "computedHash": "a965401994e158b85ea550cc9844d0972d411f07259bbe7ff11759ab150a647c"
+    },
+    "google-developer-style-guide-punctuation": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-punctuation/SKILL.md",
+      "computedHash": "8d0bd27bbeb983309639b75dcedff2de0bcd846f48fe7a5b869fd0a29d700d2f"
+    },
+    "google-developer-style-guide-structure": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-structure/SKILL.md",
+      "computedHash": "6d5e3419b25bcc077fdd4abb693dbf45e95990b91562e2db79686e600eec7719"
+    },
+    "google-developer-style-guide-voice-tone": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-voice-tone/SKILL.md",
+      "computedHash": "a15a3afd1984b2eee68b1607404d6caf0cb865c87c01f1c208dea3a491bb7491"
+    },
+    "google-developer-style-guide-word-list": {
+      "source": "ezzatron/skills",
+      "sourceType": "github",
+      "skillPath": "google-developer-style-guide-word-list/SKILL.md",
+      "computedHash": "c89ab3fa6de8f7247d584f6e5705d090ffa906f268bfbda247ca7454a55316a3"
+    },
     "vale-style-authoring": {
       "source": "ezzatron/skills",
       "sourceType": "github",
