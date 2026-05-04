@@ -1,0 +1,7 @@
+extends: existence
+message: "Use a serial (Oxford) comma before '%s'."
+link: https://developers.google.com/style/commas
+level: error
+nonword: true
+raw:
+  - '(?:[^\s,]+,\s[^\s,]+)\s(?:and|or)\s'

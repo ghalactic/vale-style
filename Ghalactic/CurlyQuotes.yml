@@ -1,0 +1,8 @@
+extends: existence
+message: "Use straight quotes instead of curly quotes."
+link: https://developers.google.com/style/quotation-marks
+level: error
+nonword: true
+tokens: []
+raw:
+  - '[‘’“”]'

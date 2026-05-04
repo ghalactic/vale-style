@@ -1,0 +1,7 @@
+extends: existence
+message: "Use 'and' instead of '&' in prose."
+link: https://developers.google.com/style/formatting
+level: error
+nonword: true
+raw:
+  - '\w\s+&\s+\w'

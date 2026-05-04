@@ -1,0 +1,8 @@
+extends: existence
+message: "Don't use the ellipsis character (…). Use three periods (...) if needed."
+link: https://developers.google.com/style/ellipses
+level: error
+nonword: true
+tokens: []
+raw:
+  - '…'

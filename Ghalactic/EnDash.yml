@@ -1,0 +1,8 @@
+extends: existence
+message: "Don't use an en dash (–). Use an em dash (—) or hyphen (-) instead."
+link: https://developers.google.com/style/dashes
+level: error
+nonword: true
+tokens: []
+raw:
+  - '–'
