@@ -95,7 +95,7 @@
       "source": "ezzatron/skills",
       "sourceType": "github",
       "skillPath": "vale-style-authoring-config/SKILL.md",
-      "computedHash": "299b280e4708e2389b229aeeca2b063a898973e83e5e22c32807fa7641ab683e"
+      "computedHash": "0bd06860c98d51da429feb921dea208471a747c95627cb5535a2ad05bd25e0fc"
     },
     "vale-style-authoring-formats": {
       "source": "ezzatron/skills",
@@ -107,7 +107,7 @@
       "source": "ezzatron/skills",
       "sourceType": "github",
       "skillPath": "vale-style-authoring-guides/SKILL.md",
-      "computedHash": "e5e42afbed90db01b2223d6f9be30c4bda0dcf29b87d49a49e8a64aae41a5aa7"
+      "computedHash": "68dcba665a1a36b6e8356135c14a261ab1818381c9e46ab764b5ab907c6cb3f1"
     }
   }
 }
