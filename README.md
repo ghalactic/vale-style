@@ -1,16 +1,18 @@
-# Ghalactic
+# Ghalactic Vale style
 
-A [Vale](https://vale.sh) style enforcing the
-[Google developer documentation style guide](https://developers.google.com/style).
+A [Vale] style enforcing the [Galactic] style, which is based on the [Google
+developer documentation style guide].
+
+[vale]: https://vale.sh
+[Galactic]: https://ghalactic.github.io
+[Google developer documentation style guide]:
+  https://developers.google.com/style
 
 ## Installation
 
 Add the Ghalactic style to your `.vale.ini` configuration:
 
 ```ini
-StylesPath = styles
-MinAlertLevel = suggestion
-
 Packages = https://github.com/ghalactic/vale-style/releases/latest/download/Ghalactic.zip
 
 [*]
@@ -23,7 +25,7 @@ Then run:
 vale sync
 ```
 
-This downloads and installs the Ghalactic style into your `StylesPath`.
+This downloads and installs the Ghalactic style.
 
 ## Rules reference
 
