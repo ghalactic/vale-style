@@ -1,10 +1,12 @@
 # Changelog
 
-All notable changes to this project are documented in this file.
+This project documents all notable changes in this file. The format is based on
+[Keep a Changelog], and this project adheres to [Semantic Versioning].
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+[keep a changelog]: https://keepachangelog.com/
+[semantic versioning]: https://semver.org/
 
-## [Unreleased]
+## Unreleased
 
 ### Added
 
