@@ -27,6 +27,16 @@ This downloads and installs the Ghalactic style into your `StylesPath`.
 
 ## Rules reference
 
+<!-- vale Ghalactic.Abbreviations = NO -->
+<!-- vale Ghalactic.Ampersand = NO -->
+<!-- vale Ghalactic.Directional = NO -->
+<!-- vale Ghalactic.OrdinalNumerals = NO -->
+<!-- vale Ghalactic.Please = NO -->
+<!-- vale Ghalactic.Simply = NO -->
+<!-- vale Ghalactic.WeOur = NO -->
+<!-- vale Ghalactic.Will = NO -->
+<!-- vale Ghalactic.Would = NO -->
+
 | Rule                  | Scope          | Description                                   |
 | --------------------- | -------------- | --------------------------------------------- |
 | Abbreviations         | substitution   | Expands abbreviations like e.g., i.e.         |
@@ -59,9 +69,19 @@ This downloads and installs the Ghalactic style into your `StylesPath`.
 | WordList              | substitution   | Google word list substitutions                |
 | Would                 | existence      | Flags hypothetical language                   |
 
+<!-- vale Ghalactic.Abbreviations = YES -->
+<!-- vale Ghalactic.Ampersand = YES -->
+<!-- vale Ghalactic.Directional = YES -->
+<!-- vale Ghalactic.OrdinalNumerals = YES -->
+<!-- vale Ghalactic.Please = YES -->
+<!-- vale Ghalactic.Simply = YES -->
+<!-- vale Ghalactic.WeOur = YES -->
+<!-- vale Ghalactic.Will = YES -->
+<!-- vale Ghalactic.Would = YES -->
+
 ## Configuration
 
-### Enabling the style
+### Enable the style
 
 Enable Ghalactic for all files in your `.vale.ini`:
 
@@ -92,7 +112,7 @@ This is amazing!
 <!-- vale Ghalactic.Exclamation = YES -->
 ```
 
-## Contributing
+## Contribute
 
 To run the test suite:
 
@@ -100,5 +120,9 @@ To run the test suite:
 make test
 ```
 
+<!-- vale Ghalactic.Passive = NO -->
+
 This runs Vale against the test fixtures in `testdata/` and verifies the
 expected output.
+
+<!-- vale Ghalactic.Passive = YES -->

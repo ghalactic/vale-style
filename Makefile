@@ -15,7 +15,7 @@ test-fail:
 	@echo "==> Testing fail fixtures (expecting specific errors)..."
 	@fail=0; \
 	for file in testdata/fail/*.md; do \
-		expected=$$(grep -oP '(?<=<!-- expect: ).*(?= -->)' "$$file"); \
+		expected=$$(sed -n 's/^<!-- expect: \(.*\) -->/\1/p' "$$file" | head -1); \
 		if [ -z "$$expected" ]; then \
 			echo "SKIP: $$file (no expect comment)"; \
 			continue; \

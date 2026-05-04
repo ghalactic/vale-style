@@ -3,5 +3,5 @@ message: "Keep sentences short (under 40 words). This sentence has %s words."
 link: https://developers.google.com/style/tone
 level: error
 scope: sentence
-limit: 40
+max: 40
 token: '\b(\w+)\b'

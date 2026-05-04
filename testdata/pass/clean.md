@@ -1,4 +1,4 @@
-# Installing the application
+# Application setup guide
 
 This guide helps you install and configure the application.
 
@@ -10,7 +10,7 @@ Make sure you have the following prerequisites:
 - At least 4 GB of RAM
 - Network access to the package registry
 
-## Installing on Linux
+## Install the package
 
 To install the application on Linux, run the following command:
 
@@ -20,7 +20,7 @@ sudo apt-get install myapp
 
 The installer downloads the package and configures the default settings.
 
-## Configuring the application
+## Configure the application
 
 After installation, update the configuration file:
 
@@ -29,9 +29,9 @@ After installation, update the configuration file:
 1. Set the `log_level` field to `info`, `warn`, or `error`.
 1. Save the file and restart the service.
 
-## Verifying the installation
+## Verify the installation
 
-To verify that the application is running, use the following command:
+To verify that the application runs correctly, use the following command:
 
 ```sh
 systemctl status myapp
