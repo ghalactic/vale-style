@@ -1,0 +1,17 @@
+extends: existence
+message: "Use gender-neutral pronouns (singular 'they') instead of '%s'."
+link: https://developers.google.com/style/pronouns
+level: error
+ignorecase: true
+tokens:
+  - he/she
+  - he or she
+  - she or he
+  - him/her
+  - him or her
+  - her or him
+  - his/her
+  - his or her
+  - her or his
+  - his/hers
+  - (s)he

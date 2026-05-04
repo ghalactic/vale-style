@@ -1,0 +1,10 @@
+extends: existence
+message: "Avoid hypothetical 'would' — use present tense instead."
+link: https://developers.google.com/style/tense
+level: error
+ignorecase: true
+tokens:
+  - would
+exceptions:
+  - would like to
+  - would rather

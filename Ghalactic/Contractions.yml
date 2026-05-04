@@ -1,0 +1,27 @@
+extends: substitution
+message: "Use the contraction '%s' instead of '%s'."
+link: https://developers.google.com/style/contractions
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  are not: aren't
+  cannot: can't
+  could not: couldn't
+  did not: didn't
+  do not: don't
+  does not: doesn't
+  has not: hasn't
+  have not: haven't
+  is not: isn't
+  it is: it's
+  must not: mustn't
+  should not: shouldn't
+  that is: that's
+  they are: they're
+  was not: wasn't
+  were not: weren't
+  will not: won't
+  would not: wouldn't
+  you are: you're
