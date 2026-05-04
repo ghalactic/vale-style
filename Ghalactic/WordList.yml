@@ -1,0 +1,48 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://developers.google.com/style/word-list
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  account name: username
+  action bar: app bar
+  administrator: admin
+  allows you to: lets you
+  autoupdate: automatically update
+  cellular data: mobile data
+  cellular network: mobile network
+  comprise: consist of|contain|include
+  curated roles: predefined roles
+  denigrate: disparage
+  deselect: clear
+  grandfathered: legacy|exempt
+  grayed-out: unavailable
+  greyed-out: unavailable
+  gray out: unavailable
+  grey out: unavailable
+  hover: hold the pointer over
+  interconnect type: connection type
+  k8s: Kubernetes
+  long press: touch and hold
+  network IP address: internal IP address
+  NoOps: fully managed
+  omnibox: address bar
+  outpost: channel
+  overview screen: recents screen
+  preferred pronouns: pronouns
+  regex: regular expression
+  repo: repository
+  sign into: sign in to
+  tarball: tar file
+  text box: box
+  textbox: box
+  touch: tap
+  unarchive: extract
+  uncheck: clear
+  uncompress: extract
+  untar: extract
+  unzip: extract
+  wish: want|need
+  World Wide Web: web

@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://developers.google.com/style/abbreviations
+level: error
+ignorecase: false
+nonword: true
+action:
+  name: replace
+swap:
+  'e\.g\.': for example
+  'i\.e\.': that is
+  'viz\.': namely
