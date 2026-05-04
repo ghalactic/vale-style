@@ -1,0 +1,27 @@
+extends: existence
+message: "Don't start a heading with an -ing verb. Use a bare infinitive for task headings or a noun phrase for conceptual headings."
+link: https://developers.google.com/style/headings
+level: error
+scope: heading
+nonword: true
+raw:
+  - '^\w+ing\b'
+exceptions:
+  - Billing
+  - Pricing
+  - Monitoring
+  - Logging
+  - Streaming
+  - Networking
+  - Caching
+  - Clustering
+  - Messaging
+  - Profiling
+  - Debugging
+  - Threading
+  - String
+  - Ring
+  - King
+  - Thing
+  - Spring
+  - Bring

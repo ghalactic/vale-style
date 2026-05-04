@@ -1,0 +1,49 @@
+extends: capitalization
+message: "'%s' should be in sentence case."
+link: https://developers.google.com/style/capitalization
+level: error
+scope: heading
+match: $sentence
+exceptions:
+  - API
+  - APIs
+  - CLI
+  - CPU
+  - CSS
+  - DNS
+  - FAQ
+  - GCP
+  - GPU
+  - gRPC
+  - HTML
+  - HTTP
+  - HTTPS
+  - ID
+  - IDs
+  - IO
+  - IP
+  - JSON
+  - OAuth
+  - OK
+  - OS
+  - RAM
+  - REST
+  - SDK
+  - SQL
+  - SSH
+  - SSL
+  - TCP
+  - TLS
+  - UDP
+  - UI
+  - URI
+  - URL
+  - URLs
+  - USB
+  - UTF
+  - UUID
+  - VM
+  - VMs
+  - VPC
+  - XML
+  - YAML
