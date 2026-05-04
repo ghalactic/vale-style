@@ -1,0 +1,26 @@
+extends: existence
+message: "Avoid using seasons ('%s') to refer to time. Readers in different hemispheres have opposite seasons."
+link: https://developers.google.com/style/inclusive-documentation
+level: error
+ignorecase: true
+tokens:
+  - in spring
+  - this spring
+  - last spring
+  - next spring
+  - in summer
+  - this summer
+  - last summer
+  - next summer
+  - in fall
+  - this fall
+  - last fall
+  - next fall
+  - in autumn
+  - this autumn
+  - last autumn
+  - next autumn
+  - in winter
+  - this winter
+  - last winter
+  - next winter

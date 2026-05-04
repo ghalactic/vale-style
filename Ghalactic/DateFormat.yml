@@ -1,0 +1,9 @@
+extends: existence
+message: "Write dates as 'Month DD, YYYY'. Don't use ambiguous formats like DD/MM/YYYY or MM/DD/YYYY."
+link: https://developers.google.com/style/dates-times
+level: error
+nonword: true
+tokens:
+  - '\d{1,2}/\d{1,2}/\d{2,4}'
+  - '\d{1,2}-\d{1,2}-\d{2,4}'
+  - '\d{1,2}\.\d{1,2}\.\d{2,4}'
