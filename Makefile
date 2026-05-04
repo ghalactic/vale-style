@@ -3,7 +3,7 @@ VALE_FLAGS := --config=testdata/.vale.ini --no-wrap
 
 FIXTURES := $(wildcard testdata/pass/*.md testdata/fail/*.md)
 
-.PHONY: test test-snapshots test-self update-snapshots lint
+.PHONY: test test-snapshots test-self update-snapshots lint bump-version
 
 test: test-snapshots test-self
 
@@ -40,3 +40,6 @@ update-snapshots:
 
 test-self:
 	@$(VALE) --config=.vale.ini README.md CHANGELOG.md
+
+bump-version:
+	@bash scripts/bump-version.sh

@@ -13,7 +13,7 @@ developer documentation style guide].
 Add the Ghalactic style to your `.vale.ini` configuration:
 
 ```ini
-Packages = https://github.com/ghalactic/vale-style/releases/latest/download/Ghalactic.zip
+Packages = https://github.com/ghalactic/vale-style/releases/download/v0.1.3/Ghalactic.zip
 
 [*]
 BasedOnStyles = Ghalactic
