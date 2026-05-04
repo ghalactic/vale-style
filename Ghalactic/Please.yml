@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't use 'please' in instructions."
+link: https://developers.google.com/style/tone
+level: error
+ignorecase: true
+action:
+  name: remove
+tokens:
+  - please

@@ -1,0 +1,12 @@
+extends: existence
+message: "Don't use exclamation marks in documentation."
+link: https://developers.google.com/style/tone
+level: error
+nonword: true
+action:
+  name: edit
+  params:
+    - trim_right
+    - "!"
+raw:
+  - '[a-zA-Z]+!'

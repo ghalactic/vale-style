@@ -1,0 +1,11 @@
+extends: existence
+message: "Don't use '%s' — it implies the action is trivial."
+link: https://developers.google.com/style/tone
+level: error
+ignorecase: true
+tokens:
+  - simply
+  - easy
+  - easily
+  - just
+  - quickly

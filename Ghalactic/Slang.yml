@@ -1,0 +1,16 @@
+extends: existence
+message: "Don't use internet slang '%s' in documentation."
+link: https://developers.google.com/style/tone
+level: error
+ignorecase: true
+tokens:
+  - tl;dr
+  - ymmv
+  - RTFM
+  - lol
+  - btw
+  - fyi
+  - imo
+  - imho
+  - afaik
+  - lmao

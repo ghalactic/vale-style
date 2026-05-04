@@ -1,0 +1,11 @@
+extends: existence
+message: "Use present tense instead of future tense with '%s'."
+link: https://developers.google.com/style/tense
+level: error
+ignorecase: true
+tokens:
+  - will
+exceptions:
+  - good will
+  - free will
+  - strong will

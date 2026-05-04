@@ -1,0 +1,15 @@
+extends: existence
+message: "Use second person ('you') instead of first person ('%s')."
+link: https://developers.google.com/style/person
+level: error
+ignorecase: true
+tokens:
+  - we
+  - our
+  - ours
+  - us
+exceptions:
+  - us-east
+  - us-west
+  - us-central
+  - US

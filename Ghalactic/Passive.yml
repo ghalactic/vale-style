@@ -1,0 +1,8 @@
+extends: existence
+message: "Prefer active voice over passive voice in '%s'."
+link: https://developers.google.com/style/voice
+level: error
+ignorecase: true
+nonword: true
+raw:
+  - (?:is|are|was|were|be|been|being)\s+(?:\w+\s){0,3}(?:\w+ed|written|known|seen|done|made|given|taken|found|told|chosen|broken|driven|fallen|forgotten|frozen|gotten|grown|hidden|kept|left|lost|meant|met|paid|put|read|ridden|risen|run|said|sent|set|shown|shut|spoken|spent|stood|stolen|struck|sworn|swept|taught|thought|thrown|torn|understood|woken|won|worn|wound|withdrawn|built|bought|brought|caught|cut|dealt|dug|fed|felt|fought|heard|held|hit|hung|led|let|lit|overcome|quit|shot|split|spread|stuck)
