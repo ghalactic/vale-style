@@ -1,0 +1,29 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://developers.google.com/style/inclusive-documentation
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  blacklist: denylist
+  black list: denylist
+  black-list: denylist
+  blacklisted: denied
+  blacklisting: denying
+  whitelist: allowlist
+  white list: allowlist
+  white-list: allowlist
+  whitelisted: allowed
+  whitelisting: allowing
+  master: primary
+  slave: replica|worker
+  man hours: person hours
+  manhours: person hours
+  man-hours: person hours
+  manpower: workforce|staff
+  man power: workforce|staff
+  man-power: workforce|staff
+  manmade: manufactured|synthetic
+  man made: manufactured|synthetic
+  mankind: humanity|people

@@ -1,0 +1,22 @@
+extends: existence
+message: "Don't use directional language '%s'. Use 'preceding', 'following', or 'earlier' instead."
+link: https://developers.google.com/style/accessible-content
+level: error
+ignorecase: true
+tokens:
+  - above
+  - below
+  - upper-left
+  - upper-right
+  - lower-left
+  - lower-right
+  - right-hand side
+  - left-hand side
+exceptions:
+  - see above
+  - above all
+  - above and beyond
+  - rise above
+  - above average
+  - below average
+  - below zero

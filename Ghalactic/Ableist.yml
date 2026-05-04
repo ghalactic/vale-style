@@ -1,0 +1,27 @@
+extends: existence
+message: "Don't use ableist language '%s'. Use more precise, inclusive terms."
+link: https://developers.google.com/style/inclusive-documentation
+level: error
+ignorecase: true
+tokens:
+  - sanity check
+  - sanity-check
+  - crazy
+  - bonkers
+  - insane
+  - cripple
+  - crippled
+  - crippling
+  - dumb
+  - dumb down
+  - dumbed down
+  - lame
+  - blind eye
+  - blind to
+  - blind spot
+  - turn a blind eye
+  - gimp
+  - gimpy
+  - lunatic
+  - loony
+  - mad
