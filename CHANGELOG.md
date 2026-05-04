@@ -6,7 +6,9 @@ This project documents all notable changes in this file. The format is based on
 [keep a changelog]: https://keepachangelog.com/
 [semantic versioning]: https://semver.org/
 
-## Unreleased
+## [v0.1.0] - 2026-05-04
+
+[v0.1.0]: https://github.com/ghalactic/vale-style/releases/v0.1.0
 
 ### Added
 
